@@ -10,9 +10,11 @@ namespace StacksAndQueues
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome to STACK!");
+            //Stack
             Stack list = new Stack();
-            list.push(30);
             list.push(56);
+            list.push(30);
             list.push(70);
             list.Display();
             Console.WriteLine();
@@ -23,12 +25,15 @@ namespace StacksAndQueues
             list.Pop();
             list.Display();
 
-            //Queue queue = new Queue();
-            //queue.Enqueue(56);
-            //queue.Enqueue(30);
-            //queue.Enqueue(70);
-            //queue.Display();
-            
+            Console.WriteLine("===============================");
+            Console.WriteLine("Welcome to QUEUE!");
+            //Queue
+            Queue queue = new Queue();
+            queue.Enqueue(56);
+            queue.Enqueue(30);
+            queue.Enqueue(70);
+            queue.Display();
+
             Console.ReadLine();
         }
     }

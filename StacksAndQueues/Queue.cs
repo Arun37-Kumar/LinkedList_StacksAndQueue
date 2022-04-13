@@ -10,6 +10,7 @@ namespace StacksAndQueues
     {
        Node head = null;
 
+        //Add element
         public void Enqueue(int data)
         {
             Node node = new Node(data);
@@ -43,6 +44,7 @@ namespace StacksAndQueues
                     temp = temp.next;
                 }
             }
+
 
         }
     }
