@@ -18,6 +18,9 @@ namespace StacksAndQueues
             Console.WriteLine();
             list.Peek();
             list.Pop();
+            list.Pop();
+            list.Pop();
+            list.Pop();
             list.Display();
 
             //Queue queue = new Queue();
