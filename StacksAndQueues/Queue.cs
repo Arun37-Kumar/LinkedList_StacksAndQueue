@@ -45,6 +45,20 @@ namespace StacksAndQueues
                 }
             }
 
+        public void Dequeu()
+        {
+            Node temp = this.head;
+            if(temp == null)
+            {
+                Console.WriteLine("Queue is empty!");
+            }
+            else
+            {
+                head = head.next;
+                temp = this.head; ;
+            }
+                Console.WriteLine("{0} is deleted.",temp);
+        }
 
         }
     }
